@@ -1,0 +1,11 @@
+name: TSAmbience
+main: TSAmbience.main.TSAmbience
+api-version: 1.13
+version: 1.2
+commands:
+  addsound:
+    description: adding sound.
+    usage: /addsound  <Sound_day/null> <time_sound_in_seconds/null> <Sound_night/null> <time_sound_in_seconds/null> <soundgroup_name>
+  tsa:
+    description: tools = remove  - sound name - id/nothing , merge - sound name, list - sound name/nothing, mute - on/off , debug - on/off , here - sound played right now and id.
+    usage: /tsa <tool>
